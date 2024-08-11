@@ -1,0 +1,26 @@
+/* src/LiveCursor.css */
+.live-cursor-container {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.cursor-info {
+  position: absolute;
+  /* background: white; */
+  padding: 5px;
+  /* border: 1px solid black; */
+  border-radius: 3px;
+  pointer-events: none; /* So it doesn't interfere with mouse movements */
+}
+
+.cursor {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: red;
+  /* pointer-events: none;  */
+  /* So it doesn't interfere with mouse movements */
+}

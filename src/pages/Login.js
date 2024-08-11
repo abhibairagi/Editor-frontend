@@ -44,7 +44,7 @@ function Login() {
       localStorage.setItem("userData", JSON.stringify(response.data.data));
       localStorage.setItem("token", response.data.data.token);
 
-      navigate("/text-speech");
+      navigate("/live-editor");
     } catch (error) {
       setLogInStatus({
         msg: "Invalid User name or Password",
